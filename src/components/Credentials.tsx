@@ -32,7 +32,7 @@ export const Credentials: React.FC = () => {
             </div>
 
             <p className="mt-5 text-xs sm:text-sm text-slate-400 leading-relaxed">{PERSONAL_INFO.education.tccSummary}</p>
-            <div className="mt-5 flex items-start gap-2 text-xs text-slate-400"><CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" /><span>O título do TCC aparece em registros públicos do orientador e de integrantes da banca.</span></div>
+            <div className="mt-5 flex items-start gap-2 text-xs text-slate-400"><CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" /><span>O tema conecta avaliação cardiorrespiratória, crescimento e prática esportiva no futebol de base.</span></div>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="p-8 rounded-2xl bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 shadow-xl">

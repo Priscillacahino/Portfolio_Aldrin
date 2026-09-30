@@ -65,7 +65,7 @@ export const FamilyStory: React.FC = () => {
               </p>
 
               <p className="text-white font-medium">
-                Sua trajetória reúne registros públicos na <strong>Escola Flamengo Paraíba</strong>, atuação como professor no <strong>Colégio Elohim</strong> informada pela família e participações no <strong>Instituto Garotinho</strong> confirmadas por fotografias e publicações fornecidas para este portfólio. Em comum, permanece a ideia de que técnica e convivência caminham juntas no processo de formação.
+                A trajetória profissional começou praticamente ao mesmo tempo em dois ambientes que seguem presentes em sua história: a <strong>escola</strong> e o <strong>futebol de base</strong>. Aldrin iniciou como estagiário e logo se firmou como professor, construindo experiências no Colégio Elohim, na Escola Flamengo Paraíba e, mais tarde, em projetos esportivos e sociais. Em todos esses espaços, técnica, disciplina e convivência caminham juntas.
               </p>
             </div>
 

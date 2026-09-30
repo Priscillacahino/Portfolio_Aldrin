@@ -1,29 +1,31 @@
 # Portfólio Profissional — Aldrin Eldrin Santos Cahino
 
-Portfólio em React/Vite dedicado à trajetória de Aldrin na Educação Física, futebol de base, gestão esportiva, competições e formação através do esporte.
+Portfólio em React/Vite dedicado à trajetória de Aldrin na Educação Física, futebol de base, esporte escolar, competições e formação através do esporte.
 
 ## Conteúdo desta versão
 
-- Fotografias fictícias/ilustrativas foram removidas.
-- O site utiliza apenas fotos e registros visuais confirmados pela família.
-- A consulta do CREF10/PB fornecida ao projeto em 30/09/2026 registra PB-004686, categoria **LICENCIADO**, situação **ATIVO**. A captura completa não é publicada porque continha CPF.
-- As matérias, registros esportivos, fontes acadêmicas, perfis e publicações visuais possuem seção própria para consulta.
-- A participação no Instituto Garotinho já conta com registros visuais e links confirmados pela família.
-- A atuação no Colégio Elohim é apresentada como informação familiar enquanto datas, competições e registros institucionais são organizados.
-- O artigo sobre capacidade respiratória é uma **releitura temática** inspirada no TCC registrado em 2016. Como o texto integral da monografia ainda não foi localizado, nenhum resultado, amostra ou conclusão foi atribuído ao trabalho original sem verificação.
+- Fotografias ilustrativas foram removidas; o site usa registros reais do acervo selecionado para o projeto.
+- O CREF10/PB consta como **PB-004686 / 004686-G/PB**, categoria **LICENCIADO**, situação **ATIVO** na consulta de 30/09/2026.
+- A trajetória foi reorganizada de forma mais natural, evitando repetição de datas e blocos de validação.
+- A atuação no Colégio Elohim é apresentada como parte da trajetória profissional e possui referência pública de Aldrin como coordenador de evento esportivo do colégio.
+- A participação no Instituto Garotinho é descrita como **voluntária**, em apoio aos professores e às crianças em atividades e torneios.
+- A matéria original do ge sobre a Copa Fla Nordeste 2015 foi mantida; republicações da mesma matéria foram removidas.
+- O artigo inspirado no TCC foi simplificado e contextualizado com pesquisas sobre desenvolvimento pulmonar na adolescência e condicionamento cardiorrespiratório no futebol de base.
+- A foto com bola permanece na galeria; a capa passou a usar um registro de equipe com enquadramento mais forte.
 - Telefone, WhatsApp e e-mail não são exibidos sem autorização específica para divulgação.
 
 ## Fontes principais reunidas
 
 - ge / Globo Esporte — Copa Fla Nordeste 2015
 - CBF7 — registros Sub-11 e Sub-13 em 2024
-- PE Cup Brasil — perfil e comissão técnica do Fla Altiplano-PB
-- Sistema CONFEF/CREFs e consulta CREF10/PB — registro profissional
-- Registros acadêmicos relacionados ao TCC de 2016 na UFPB
-- Perfil profissional público @aldrin_eldrin
+- PE Cup Brasil — Fla Altiplano-PB
+- Sistema CONFEF/CREFs e consulta CREF10/PB
+- Elohim Colégio e Curso — registro público de torneio esportivo
+- Perfil de esportes do Elohim no Instagram
 - Escola Flamengo PB e Instituto Garotinho no Instagram
-- Sete publicações do Instagram fornecidas como registros visuais confirmados
-- Referências científicas contemporâneas usadas na releitura do TCC
+- Referência pública do Instituto Garotinho como projeto social esportivo
+- Publicações visuais do Instagram fornecidas para o projeto
+- Referências científicas usadas na releitura do tema do TCC
 
 A lista completa, com links, está em `docs/FONTES_PUBLICAS.md` e também na seção **Fontes** do site.
 

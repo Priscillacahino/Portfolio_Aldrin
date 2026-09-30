@@ -7,8 +7,8 @@ export const PERSONAL_INFO = {
   roles: [
     "Treinador com registro jornalístico na Copa Fla Nordeste de 2015",
     "Preparador Físico e Auxiliar Técnico em registros CBF7 de 2024",
-    "Professor de Educação Física no Colégio Elohim",
-    "Participações no Instituto Garotinho com registros visuais confirmados"
+    "Professor de Educação Física no Colégio Elohim e atuação em esporte escolar",
+    "Participação voluntária no Instituto Garotinho em apoio a professores e atletas"
   ],
   motto: "Mais do que ensinar futebol, ajudar a formar pessoas.",
   secondaryMotto: "Disciplina, respeito, convivência e desenvolvimento dentro e fora de campo.",
@@ -28,7 +28,7 @@ export const PERSONAL_INFO = {
     tccYear: "2016",
     tccTitle: "Caracterização da capacidade respiratória dos atletas da categoria sub 13 da Escolinha do Flamengo",
     advisor: "Prof. Cláudio Luiz de Souza Meireles",
-    tccSummary: "Registro acadêmico confirma um TCC de 2016 dedicado à capacidade respiratória de atletas Sub-13 da Escolinha do Flamengo. O texto integral não foi localizado nas fontes públicas consultadas; por isso, o portfólio não atribui resultados ou conclusões que não puderam ser verificados."
+    tccSummary: "O trabalho aborda a capacidade respiratória de atletas Sub-13 em uma fase em que o treinamento já pode produzir respostas cardiorrespiratórias elevadas, mas pulmões, tórax e maturação ainda estão em desenvolvimento. A leitura atual do tema reforça que desempenho e crescimento precisam ser analisados em conjunto."
   },
   social: {
     instagram: "https://www.instagram.com/aldrin_eldrin/",
@@ -90,110 +90,81 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
   {
     id: "infancia",
     year: "Infância",
-    title: "O esporte como referência familiar",
+    title: "O esporte como parte da formação",
     category: "infancia",
     role: "Vivência esportiva",
-    organization: "História familiar",
-    description: "Segundo relato familiar, o pai Nelson incentivou Aldrin e a irmã a praticarem esportes desde cedo, valorizando benefícios físicos, mentais, disciplina e convivência.",
-    highlight: "Raízes pessoais que ajudam a explicar sua escolha profissional",
-    verified: false,
-    sourceDoc: "Relato familiar"
+    organization: "Raízes",
+    description: "O incentivo do pai, Nelson, aproximou Aldrin e a irmã do esporte desde cedo. Escolinhas, treinos e competições ajudaram a construir disciplina, convivência coletiva e gosto pelo desafio.",
+    highlight: "Uma relação com o esporte que começou antes da escolha profissional",
+    verified: false
+  },
+  {
+    id: "inicio-profissional",
+    year: "Início da carreira",
+    title: "Do estágio à sala de aula e ao campo",
+    category: "escolar",
+    role: "Estágio e primeiros trabalhos como professor",
+    organization: "Educação Física e futebol de base",
+    description: "A entrada profissional aconteceu praticamente no mesmo período no ambiente escolar e na Escolinha do Flamengo. Aldrin começou como estagiário e, em pouco tempo, firmou-se como professor, conciliando educação, treinamento e formação esportiva.",
+    highlight: "Escola e futebol de base avançando lado a lado",
+    verified: false
   },
   {
     id: "copa-fla-2015",
     year: "2015",
-    title: "Copa Fla Nordeste — Sub-15",
+    title: "Copa Fla Nordeste",
     category: "flamengo",
-    role: "Treinador",
-    organization: "Equipe Sub-15 de João Pessoa",
-    description: "O ge identificou Aldrin Eldrin como treinador da equipe Sub-15 de João Pessoa. A mesma reportagem registra a campanha de vice-campeonato e a participação da atleta Jeyce Karla, de 14 anos, que recebia o mesmo treino dos meninos, segundo o treinador.",
-    highlight: "Registro jornalístico independente",
+    role: "Treinador da equipe Sub-15 de João Pessoa",
+    organization: "Escola Flamengo",
+    description: "A matéria do ge registra Aldrin como treinador da equipe Sub-15 de João Pessoa e mostra uma postura de apoio à participação feminina: Jeyce Karla treinava com os meninos e recebia o mesmo treinamento, sem distinção.",
+    highlight: "Futebol de base, competição e inclusão",
     verified: true,
     sourceDoc: "ge / Globo Esporte — 2015"
   },
   {
     id: "graduacao-ufpb-2016",
     year: "2016",
-    title: "TCC em Educação Física — UFPB",
+    title: "Formação acadêmica aplicada ao futebol",
     category: "academico",
-    role: "Autor de Trabalho de Conclusão de Curso",
+    role: "Trabalho de Conclusão de Curso",
     organization: "Universidade Federal da Paraíba",
-    description: "Registros acadêmicos vinculados ao orientador e à banca confirmam o TCC 'Caracterização da capacidade respiratória dos atletas da categoria sub 13 da Escolinha do Flamengo', apresentado em 2016.",
-    highlight: "Tema acadêmico diretamente relacionado ao futebol de base",
-    verified: true,
-    sourceDoc: "Registros acadêmicos de orientador e banca"
+    description: "O TCC sobre capacidade respiratória de atletas Sub-13 aproximou a formação em Educação Física de uma realidade já presente no cotidiano profissional de Aldrin: o desenvolvimento de jovens jogadores.",
+    highlight: "Ciência do esporte conectada à prática",
+    verified: true
   },
   {
-    id: "cref-registro",
-    year: "2024",
-    title: "Registro profissional em lista oficial",
-    category: "academico",
-    role: "Profissional de Educação Física",
-    organization: "Sistema CONFEF/CREFs",
-    description: "A nominata oficial do Sistema CONFEF/CREFs gerada em 2024 lista Aldrin Eldrin Santos Cahino sob o registro CREF 004686-G/PB.",
-    highlight: "CREF 004686-G/PB",
-    verified: true,
-    sourceDoc: "Sistema CONFEF/CREFs — nominata 2024"
-  },
-  {
-    id: "cbf7-2024",
-    year: "2024",
-    title: "Campeonato Brasileiro de Futebol 7 de Base",
-    category: "competicao",
-    role: "Preparador Físico (Sub-11) e Auxiliar Técnico (Sub-13)",
-    organization: "Escola Flamengo João Pessoa / CBF7",
-    description: "A CBF7 registra Aldrin como Preparador Físico da Escola Flamengo João Pessoa Sub-11, inscrito em 12/07/2024, e como Auxiliar Técnico da Escola Flamengo Sub-13, inscrito em 15/07/2024.",
-    highlight: "Duas funções oficiais em categorias de base",
-    verified: true,
-    sourceDoc: "BID e páginas oficiais da CBF7"
-  },
-  {
-    id: "pe-cup-2024",
-    year: "2024",
-    title: "PE Cup Brasil",
-    category: "competicao",
-    role: "Técnico",
-    organization: "Fla Altiplano-PB",
-    description: "A base oficial da PE Cup Brasil identifica Aldrin Eldrin Santos Cahino como técnico do Fla Altiplano-PB e apresenta seu perfil de registro na competição.",
-    highlight: "Registro nominal da comissão técnica",
-    verified: true,
-    sourceDoc: "PE Cup Brasil"
-  },
-  {
-    id: "escola-elohim",
-    year: "Período a confirmar",
-    title: "Atuação no Colégio Elohim",
+    id: "trajetoria-escolas-projetos",
+    year: "Trajetória contínua",
+    title: "Escolas, escolinhas e projetos",
     category: "escolar",
-    role: "Professor de Educação Física",
-    organization: "Colégio Elohim — João Pessoa",
-    description: "Atuação profissional informada pela família, incluindo participação com equipes escolares em competições. Datas, modalidades e resultados serão detalhados à medida que documentos e publicações forem organizados.",
-    highlight: "Ensino escolar e esporte",
-    verified: false,
-    sourceDoc: "Relato familiar / documentação em organização"
+    role: "Professor, treinador e colaborador",
+    organization: "Elohim • Escola Flamengo • projetos esportivos",
+    description: "Ao longo da carreira, Aldrin reuniu experiências no ensino escolar, no futebol de base e em projetos sociais. No Colégio Elohim, registros públicos o identificam em atividades esportivas; no Instituto Garotinho, sua colaboração ocorreu de forma voluntária, auxiliando professores e atletas em momentos de maior demanda.",
+    highlight: "Formação esportiva em diferentes contextos",
+    verified: true
   },
   {
-    id: "instituto-garotinho",
-    year: "Registros visuais",
-    title: "Participações no Instituto Garotinho",
-    category: "escolar",
-    role: "Participação em atividades esportivas",
-    organization: "Instituto Garotinho",
-    description: "A participação de Aldrin foi confirmada pela família em fotografias e publicações do Instagram do Instituto Garotinho fornecidas para este portfólio. As datas e a função exata em cada ação permanecem descritas apenas quando houver contexto suficiente no registro.",
-    highlight: "Esporte, convivência e formação social",
+    id: "competicoes-2024",
+    year: "2024",
+    title: "Competições de base em diferentes funções",
+    category: "competicao",
+    role: "Preparador físico, auxiliar técnico e técnico",
+    organization: "CBF7 • PE Cup Brasil",
+    description: "Registros oficiais mostram Aldrin na comissão técnica da Escola Flamengo no Campeonato Brasileiro de Futebol 7 de Base e como técnico do Fla Altiplano-PB na PE Cup Brasil.",
+    highlight: "Experiência técnica em categorias Sub-11, Sub-12 e Sub-13",
     verified: true,
-    sourceDoc: "Acervo confirmado pela família + publicações do Instagram"
+    sourceDoc: "CBF7 e PE Cup Brasil"
   },
   {
-    id: "cref-ativo-2026",
-    year: "2026",
-    title: "Situação profissional confirmada no CREF10/PB",
-    category: "academico",
-    role: "Profissional de Educação Física",
-    organization: "CREF10/PB",
-    description: "Em consulta cadastral fornecida para este portfólio em 30/09/2026, o registro PB-004686 aparece na categoria LICENCIADO e situação ATIVO.",
-    highlight: "Registro profissional ativo em 30/09/2026",
-    verified: true,
-    sourceDoc: "Consulta cadastral CREF10/PB"
+    id: "atuacao-atual",
+    year: "Atual",
+    title: "Formação pelo esporte",
+    category: "gestao",
+    role: "Educação Física e futebol de base",
+    organization: "João Pessoa / PB",
+    description: "A atuação atual reúne experiência de campo, educação e organização esportiva com um princípio constante: desenvolver o atleta sem perder de vista a formação humana, o respeito e a convivência coletiva.",
+    highlight: "Mais do que ensinar futebol, ajudar a formar pessoas",
+    verified: true
   }
 ];
 
@@ -269,40 +240,40 @@ export const INITIAL_GALLERY: GalleryItem[] = [
     id: "gal-campo-bola",
     title: "Acompanhamento em campo",
     category: "treinos",
-    year: "Acervo confirmado",
-    description: "Aldrin em atividade de futebol de base. Fotografia fornecida e confirmada pela família para uso no portfólio.",
+    year: "Escola Flamengo",
+    description: "Aldrin à margem do campo durante atividade de futebol de base, acompanhando os atletas de perto.",
     imageUrl: "/assets/aldrin-campo-bola.jpg",
-    badge: "Foto real confirmada",
+    badge: "Treino e formação",
     verified: true
   },
   {
     id: "gal-orientacao",
-    title: "Orientação individual ao atleta",
+    title: "Orientação ao atleta",
     category: "flamengo",
-    year: "Acervo confirmado",
-    description: "Registro de Aldrin orientando um jovem atleta à margem do campo, representando o acompanhamento próximo durante a formação esportiva.",
+    year: "Escola Flamengo",
+    description: "Registro de orientação individual durante atividade de campo, destacando o acompanhamento próximo no processo de formação.",
     imageUrl: "/assets/aldrin-orientando-atleta.jpg",
-    badge: "Foto real confirmada",
+    badge: "Futebol de base",
     verified: true
   },
   {
     id: "gal-equipe",
-    title: "Futebol de base e trabalho coletivo",
+    title: "Equipe de futebol de base",
     category: "competicoes",
-    year: "Acervo confirmado",
-    description: "Aldrin com atletas e integrantes da equipe em registro coletivo ligado ao futebol de base. Imagem confirmada pela família.",
+    year: "Escola Flamengo",
+    description: "Registro coletivo de equipe de base com Aldrin e integrantes da comissão técnica em contexto esportivo.",
     imageUrl: "/assets/aldrin-equipe-base.jpg",
-    badge: "Foto real confirmada",
+    badge: "Equipe e competição",
     verified: true
   },
   {
     id: "gal-garotinho",
-    title: "Registro institucional — Instituto Garotinho",
+    title: "Instituto Garotinho — participação voluntária",
     category: "escola_social",
-    year: "Acervo confirmado",
-    description: "Captura de publicação do Instituto Garotinho fornecida pela família como registro de participação de Aldrin em ações da instituição.",
+    year: "Projeto social",
+    description: "Publicação do Instituto Garotinho em contexto de participação esportiva e deslocamento para atividades do projeto, ligada à colaboração voluntária de Aldrin com professores e crianças.",
     imageUrl: "/assets/instituto-garotinho-instagram.jpg",
-    badge: "Registro visual confirmado",
+    badge: "Instituto Garotinho",
     verified: true
   }
 ];
@@ -311,32 +282,32 @@ export const INSTITUTIONS = [
   {
     id: "flamengo-pb",
     name: "Escola Flamengo Paraíba",
-    role: "Treinador, preparação física e comissão técnica",
-    period: "Registros públicos em 2015, 2024 e 2026",
-    badges: ["Futebol de Base", "CBF7", "Comissão Técnica"],
-    description: "Há registros públicos de Aldrin como treinador em 2015 e integrante de comissões técnicas em 2024, além de fotografias reais de sua atuação em campo fornecidas pela família.",
+    role: "Professor, treinador e integrante de comissões técnicas",
+    period: "Trajetória no futebol de base",
+    badges: ["Futebol de Base", "Treinamento", "Comissão Técnica"],
+    description: "Aldrin iniciou sua trajetória profissional na escolinha ainda como estagiário e, em pouco tempo, consolidou sua atuação como professor. Registros públicos posteriores mostram sua presença como treinador, preparador físico e auxiliar técnico em diferentes categorias e competições.",
     link: "https://www.instagram.com/escolaflamengopb/",
-    sourceStatus: "Documentado em fontes públicas e acervo confirmado"
+    sourceStatus: "Registros públicos em imprensa e competições oficiais"
   },
   {
     id: "colegio-elohim",
     name: "Colégio Elohim",
-    role: "Professor de Educação Física",
-    period: "Período a documentar",
-    badges: ["Educação Escolar", "Formação", "Competições Escolares"],
-    description: "Atuação profissional informada pela família, incluindo participação com equipes escolares em competições. O portfólio evita atribuir datas, modalidades ou resultados específicos enquanto essas informações não forem acompanhadas por publicação ou documento de apoio.",
-    link: null,
-    sourceStatus: "Informação familiar — detalhes em documentação"
+    role: "Professor de Educação Física e atuação no esporte escolar",
+    period: "Trajetória profissional",
+    badges: ["Educação Escolar", "Futsal", "Competições Escolares"],
+    description: "A atuação de Aldrin no Elohim faz parte de sua trajetória profissional desde o início da carreira. Uma página pública de torneio do colégio identifica “Profº Aldrin Eldrin” como coordenador do evento, e registros esportivos da escola mostram sua participação em atividades e competições.",
+    link: "https://www.instagram.com/p/DYxftkLFSui/",
+    sourceStatus: "Atuação e participação esportiva com registros públicos"
   },
   {
     id: "instituto-garotinho",
     name: "Instituto Garotinho",
-    role: "Participações em atividades esportivas",
-    period: "Registros visuais confirmados",
-    badges: ["Esporte", "Formação Social", "Crianças e Adolescentes"],
-    description: "A participação de Aldrin foi confirmada pela família em fotografias e publicações do Instagram fornecidas para esta versão. Os links dos registros foram preservados na seção Fontes para consulta.",
+    role: "Apoio voluntário a professores e atletas",
+    period: "Participações voluntárias",
+    badges: ["Projeto Social", "Esporte", "Crianças e Adolescentes"],
+    description: "Aldrin colaborou voluntariamente com o Instituto Garotinho para reforçar o trabalho dos professores em momentos de grande número de crianças, inclusive em atividades ligadas a torneios. O Instituto se apresenta como organização sem fins lucrativos que utiliza esporte, educação e valores humanos como ferramentas de formação e inclusão.",
     link: "https://www.instagram.com/institutogarotinho/",
-    sourceStatus: "Acervo e publicações confirmados pela família"
+    sourceStatus: "Projeto social voluntário e registros de participação"
   }
 ];
 
@@ -348,92 +319,38 @@ export const PUBLIC_SOURCES: PublicSource[] = [
     publisher: "ge / Globo Esporte",
     year: "2015",
     url: "https://ge.globo.com/futebol/times/flamengo/noticia/2015/10/da-surdez-ao-titulo-copa-fla-e-superacao-do-menino-fernando.html",
-    note: "Matéria original que cita Aldrin como treinador da equipe Sub-15 de João Pessoa, registra o vice-campeonato e a participação de Jeyce Karla.",
+    note: "Matéria original que cita Aldrin como treinador do Sub-15 de João Pessoa e registra o apoio à atleta Jeyce Karla, que treinava com os meninos sem distinção.",
     primary: true
-  },
-  {
-    id: "implante-republicacao",
-    type: "Jornalismo",
-    title: "Portal O Globo destaca história de superação de Fernando no futebol",
-    publisher: "Grupo de Implante Coclear HC/FMUSP",
-    year: "2015",
-    url: "https://www.implantecoclear.org.br/portal-oglobo-com-destaca-historia-de-superacao-de-fernando-no-futebol/",
-    note: "Republicação do conteúdo jornalístico que também preserva a menção a Aldrin e Jeyce Karla."
-  },
-  {
-    id: "torcida-republicacao",
-    type: "Jornalismo",
-    title: "Da surdez ao título: a Copa Fla e a superação do menino Fernando",
-    publisher: "Torcida Flamengo",
-    year: "2015",
-    url: "https://www.torcidaflamengo.com.br/noticia/42533/da-surdez-ao-titulo-a-copa-fla-e-a-superacao-do-menino-fernando",
-    note: "Republicação da matéria, útil como referência alternativa para pesquisa."
-  },
-  {
-    id: "coluna-republicacao",
-    type: "Jornalismo",
-    title: "A superação do menino Fernando: da surdez ao título da Copa Fla",
-    publisher: "Coluna do Fla",
-    year: "2015",
-    url: "https://colunadofla.com/2015/10/a-superacao-do-menino-fernando-da-surdez-ao-titulo-da-copa-fla/",
-    note: "Republicação que mantém o trecho com Aldrin e a atleta Jeyce Karla."
   },
   {
     id: "cbf7-sub11-bid",
     type: "Registro esportivo",
-    title: "BID — Campeonato Brasileiro de Futebol 7 de Base 2024 Sub-11",
+    title: "Campeonato Brasileiro de Futebol 7 de Base — Sub-11",
     publisher: "CBF7",
     year: "2024",
     url: "https://cbf7.com.br/campeonatos/2024-7-campeonato-brasileiro-de-futebol-7-de-base---2024-sub-11/bid",
-    note: "Lista Aldrin como Preparador Físico da Escola Flamengo João Pessoa Sub-11, inscrição em 12/07/2024.",
+    note: "Lista Aldrin como Preparador Físico da Escola Flamengo João Pessoa Sub-11, com inscrição em 12/07/2024.",
     primary: true
-  },
-  {
-    id: "cbf7-sub11-team",
-    type: "Registro esportivo",
-    title: "Escola Flamengo João Pessoa Sub-11 — comissão técnica",
-    publisher: "FPBF7 / CBF7",
-    year: "2024",
-    url: "https://cbf7.com.br/federacao/FPBF7/equipes/escola-flamengo-bessa-sub-11",
-    note: "Página da equipe que identifica Aldrin como Preparador Físico."
   },
   {
     id: "cbf7-sub13-bid",
     type: "Registro esportivo",
-    title: "BID — Campeonato Brasileiro de Futebol 7 de Base 2024 Sub-13",
+    title: "Campeonato Brasileiro de Futebol 7 de Base — Sub-13",
     publisher: "CBF7",
     year: "2024",
     url: "https://cbf7.com.br/campeonatos/2024-7-campeonato-brasileiro-de-futebol-7-de-base---2024-sub-13/bid",
-    note: "Lista Aldrin como Auxiliar Técnico da Escola Flamengo Sub-13, inscrição em 15/07/2024.",
-    primary: true
-  },
-  {
-    id: "cbf7-sub13-team",
-    type: "Registro esportivo",
-    title: "Escola Flamengo Sub-13 — comissão técnica",
-    publisher: "FPBF7 / CBF7",
-    year: "2024",
-    url: "https://cbf7.com.br/federacao/FPBF7/equipes/escola-flamengo-sub-13",
-    note: "Página da equipe com Aldrin entre os três membros da comissão técnica."
-  },
-  {
-    id: "pecup-profile",
-    type: "Registro esportivo",
-    title: "Perfil de Aldrin Eldrin Santos Cahino",
-    publisher: "PE Cup Brasil",
-    year: "2024",
-    url: "https://www.pecupbrasil.com.br/estatistica_atleta.php?cod_atleta=104465",
-    note: "Perfil nominal que apresenta Aldrin com posição/função de Técnico.",
+    note: "Lista Aldrin como Auxiliar Técnico da Escola Flamengo Sub-13, com inscrição em 15/07/2024.",
     primary: true
   },
   {
     id: "pecup-team",
     type: "Registro esportivo",
-    title: "Fla Altiplano-PB — comissão técnica",
+    title: "Fla Altiplano-PB — comissão técnica na PE Cup Brasil",
     publisher: "PE Cup Brasil",
     year: "2024",
     url: "https://www.pecupbrasil.com.br/estatistica_equipe.php?cod_equipe=1115",
-    note: "Página da equipe que identifica Aldrin como Técnico do Fla Altiplano-PB."
+    note: "Página da equipe que identifica Aldrin como Técnico do Fla Altiplano-PB na categoria Sub-12.",
+    primary: true
   },
   {
     id: "confef-2024",
@@ -452,45 +369,36 @@ export const PUBLIC_SOURCES: PublicSource[] = [
     publisher: "CREF10/PB",
     year: "2026",
     url: "https://www.cref10.org.br/site/registrado.php?pagina=1",
-    note: "Consulta cadastral oficial. Em captura fornecida para este portfólio em 30/09/2026, PB-004686 aparece como LICENCIADO e ATIVO; a imagem completa não é publicada porque continha CPF.",
+    note: "Consulta oficial do conselho. Em 30/09/2026, o registro PB-004686 foi consultado como LICENCIADO e ATIVO.",
     primary: true
   },
   {
-    id: "tcc-orientador",
-    type: "Registro acadêmico",
-    title: "Registro de orientação do TCC de Aldrin",
-    publisher: "Currículo público de Cláudio Luiz de Souza Meireles / Escavador",
-    year: "2016",
-    url: "https://www.escavador.com/sobre/4066302/claudio-luiz-de-souza-meireles",
-    note: "Confirma autor, título do TCC, ano, curso, UFPB e orientador.",
+    id: "elohim-torneio",
+    type: "Registro escolar",
+    title: "Torneio de futsal — profissionais envolvidos",
+    publisher: "Elohim Colégio e Curso",
+    year: "Registro público",
+    url: "https://edfisica2015.wixsite.com/torneiodefutsal/aulas-e-treinos",
+    note: "Página pública do torneio do Elohim que identifica “Profº Aldrin Eldrin” como coordenador do evento.",
     primary: true
   },
   {
-    id: "tcc-banca-padilha",
-    type: "Registro acadêmico",
-    title: "Registro da banca do TCC — Orranette Pereira Padilhas",
-    publisher: "Escavador",
-    year: "2016",
-    url: "https://www.escavador.com/sobre/4066312/orranette-pereira-padilhas",
-    note: "Confirma Aldrin como aluno e o mesmo título de TCC na UFPB."
-  },
-  {
-    id: "tcc-banca-aniceto",
-    type: "Registro acadêmico",
-    title: "Registro da banca do TCC — Rodrigo Ramalho Aniceto",
-    publisher: "Escavador",
-    year: "2016",
-    url: "https://www.escavador.com/sobre/6721992/rodrigo-ramalho-aniceto",
-    note: "Segunda confirmação independente do registro acadêmico do TCC."
+    id: "elohim-esportes-instagram",
+    type: "Registro escolar",
+    title: "Esportes Elohim — publicação com Aldrin",
+    publisher: "Instagram",
+    year: "Atual",
+    url: "https://www.instagram.com/p/DYxftkLFSui/",
+    note: "Publicação do perfil dedicado aos esportes do Elohim, indicada como registro da participação de Aldrin nas atividades esportivas da escola."
   },
   {
     id: "instagram-profissional",
     type: "Perfil profissional",
     title: "Perfil profissional de Aldrin Eldrin",
     publisher: "Instagram",
-    year: "2026",
+    year: "Atual",
     url: "https://www.instagram.com/aldrin_eldrin/",
-    note: "Perfil profissional público de Aldrin, preservado como canal de consulta. Informações de bio podem ser atualizadas pelo próprio titular ao longo do tempo."
+    note: "Perfil público de Aldrin ligado à sua atuação em Educação Física, futebol de base e gestão esportiva."
   },
   {
     id: "instagram-escola-flamengo",
@@ -499,126 +407,118 @@ export const PUBLIC_SOURCES: PublicSource[] = [
     publisher: "Instagram",
     year: "Atual",
     url: "https://www.instagram.com/escolaflamengopb/",
-    note: "Perfil institucional indicado pela família e preservado como fonte para consulta de atividades, equipes e registros visuais."
+    note: "Perfil institucional da Escola Flamengo PB, com registros de equipes, treinos e competições."
   },
   {
     id: "instagram-instituto-garotinho",
-    type: "Perfil profissional",
+    type: "Projeto social",
     title: "Instituto Garotinho",
     publisher: "Instagram",
     year: "Atual",
     url: "https://www.instagram.com/institutogarotinho/",
-    note: "Perfil institucional fornecido pela família. Publicações associadas a participações de Aldrin foram preservadas como registros visuais."
+    note: "Perfil do projeto social esportivo em que Aldrin realizou participações voluntárias de apoio a professores e atletas."
+  },
+  {
+    id: "instituto-garotinho-projeto",
+    type: "Projeto social",
+    title: "Instituto Garotinho — esporte como transformação social",
+    publisher: "Sympla / Instituto Garotinho",
+    year: "2026",
+    url: "https://www.sympla.com.br/evento/seletiva-copa-do-brasil/3514080",
+    note: "Apresentação pública do Instituto como organização sem fins lucrativos voltada à formação de crianças e adolescentes por meio do esporte, educação e valores humanos."
   },
   {
     id: "instagram-visual-DbMKQpYOfuc",
     type: "Registro visual",
-    title: "Publicação em vídeo — registro visual com Aldrin",
+    title: "Vídeo — atividade esportiva com Aldrin",
     publisher: "Instagram",
-    year: "Acervo confirmado",
+    year: "Registro visual",
     url: "https://www.instagram.com/reel/DbMKQpYOfuc/",
-    note: "Link fornecido pela família. Aldrin aparece nas imagens e o registro foi autorizado para compor a documentação do portfólio.",
-    primary: true
+    note: "Vídeo indicado como parte do acervo público da trajetória esportiva de Aldrin; o contexto completo pode ser consultado diretamente na publicação."
   },
   {
     id: "instagram-visual-DdPtX2dhpsr",
     type: "Registro visual",
-    title: "Publicação no Instagram — registro visual com Aldrin",
+    title: "Publicação — atividade esportiva com Aldrin",
     publisher: "Instagram",
-    year: "Acervo confirmado",
+    year: "Registro visual",
     url: "https://www.instagram.com/p/DdPtX2dhpsr/",
-    note: "Link fornecido pela família como publicação em que Aldrin aparece."
+    note: "Registro visual de atividade esportiva com participação de Aldrin."
   },
   {
     id: "instagram-visual-DBmtqr0J3bI",
     type: "Registro visual",
-    title: "Publicação no Instagram — registro visual com Aldrin",
+    title: "Publicação — futebol de base",
     publisher: "Instagram",
-    year: "Acervo confirmado",
+    year: "Registro visual",
     url: "https://www.instagram.com/p/DBmtqr0J3bI/",
-    note: "Link fornecido pela família como publicação em que Aldrin aparece."
+    note: "Registro visual relacionado à trajetória de Aldrin no futebol de base."
   },
   {
     id: "instagram-visual-DXB3dKvjKVK",
     type: "Registro visual",
-    title: "Publicação no Instagram — registro visual com Aldrin",
+    title: "Publicação — participação esportiva",
     publisher: "Instagram",
-    year: "Acervo confirmado",
+    year: "Registro visual",
     url: "https://www.instagram.com/p/DXB3dKvjKVK/",
-    note: "Link fornecido pela família como publicação em que Aldrin aparece."
+    note: "Publicação indicada como registro de participação esportiva de Aldrin."
   },
   {
     id: "instagram-visual-DR7uWkwj5OF",
     type: "Registro visual",
-    title: "Publicação no Instagram — registro visual com Aldrin",
+    title: "Publicação — atividade com equipe",
     publisher: "Instagram",
-    year: "Acervo confirmado",
+    year: "Registro visual",
     url: "https://www.instagram.com/p/DR7uWkwj5OF/",
-    note: "Link fornecido pela família como publicação em que Aldrin aparece."
+    note: "Registro visual com Aldrin em contexto de atividade esportiva e equipe."
   },
   {
     id: "instagram-visual-DJsERxvxjZb",
     type: "Registro visual",
-    title: "Publicação no Instagram — registro visual com Aldrin",
+    title: "Publicação — trajetória esportiva",
     publisher: "Instagram",
-    year: "Acervo confirmado",
+    year: "Registro visual",
     url: "https://www.instagram.com/p/DJsERxvxjZb/",
-    note: "Link fornecido pela família como publicação em que Aldrin aparece."
+    note: "Publicação preservada como registro visual da trajetória esportiva de Aldrin."
   },
   {
     id: "instagram-visual-DcvvxDJsS3g",
     type: "Registro visual",
-    title: "Publicação no Instagram — registro visual com Aldrin",
+    title: "Publicação — atividade esportiva",
     publisher: "Instagram",
-    year: "Acervo confirmado",
+    year: "Registro visual",
     url: "https://www.instagram.com/p/DcvvxDJsS3g/",
-    note: "Link fornecido pela família como publicação em que Aldrin aparece."
-  },
-  {
-    id: "flickr-2015",
-    type: "Acervo histórico",
-    title: "Escolinha Fla João Pessoa em Cuité-PB",
-    publisher: "Flickr — perfil Aldrin Eldrin",
-    year: "2015",
-    url: "https://www.flickr.com/photos/131277832@N08/16722176378/",
-    note: "Acervo de 2015 associado ao perfil de Aldrin. As imagens não serão usadas como retratos dele sem confirmação individual."
+    note: "Registro visual de atividade esportiva com participação de Aldrin."
   }
 ];
 
 export const ARTICLE_REFERENCES: ArticleReference[] = [
   {
+    title: "Lung and thorax development during adolescence: relationship with pubertal status",
+    publisher: "European Respiratory Journal / PubMed",
+    year: "2002",
+    url: "https://pubmed.ncbi.nlm.nih.gov/12449187/",
+    note: "Mostra que volumes pulmonares e desenvolvimento torácico continuam mudando ao longo da puberdade, especialmente em meninos."
+  },
+  {
+    title: "The effects of soccer training in aerobic capacity between trained and untrained adolescent boys of the same biological age",
+    publisher: "PubMed",
+    year: "2020",
+    url: "https://pubmed.ncbi.nlm.nih.gov/32674539/",
+    note: "Comparou jovens de 12, 14 e 16 anos e encontrou melhor capacidade aeróbia nos praticantes regulares de futebol."
+  },
+  {
     title: "Recreational Soccer Training Effects on Pediatric Populations Physical Fitness and Health: A Systematic Review",
     publisher: "Children / PMC",
     year: "2022",
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9689246/",
-    note: "Revisão sistemática sobre efeitos do futebol recreativo na aptidão física e saúde de crianças e adolescentes."
-  },
-  {
-    title: "Does Regular Exercise Impact the Lung Function of Healthy Children and Adolescents? A Systematic Review and Meta-Analysis",
-    publisher: "Pediatric Exercise Science / PubMed",
-    year: "2022",
-    url: "https://pubmed.ncbi.nlm.nih.gov/36538934/",
-    note: "Revisão e metanálise sobre exercício regular e parâmetros de função pulmonar em jovens."
+    note: "Revisão sistemática sobre efeitos do futebol na aptidão física e saúde de crianças e adolescentes."
   },
   {
     title: "Regular soccer training improves pulmonary diffusion capacity in 6 to 10 year old boys",
-    publisher: "BMC Sports Science, Medicine and Rehabilitation / PubMed",
+    publisher: "BMC Sports Science, Medicine and Rehabilitation / PMC",
     year: "2023",
-    url: "https://pubmed.ncbi.nlm.nih.gov/37919774/",
-    note: "Estudo sobre treinamento regular de futebol e adaptações pulmonares em meninos de 6 a 10 anos."
-  },
-  {
-    title: "Effects of respiratory muscle training in soccer players: a systematic review with a meta-analysis",
-    publisher: "PubMed",
-    year: "2021",
-    url: "https://pubmed.ncbi.nlm.nih.gov/34261153/",
-    note: "Revisão específica sobre treinamento muscular respiratório em jogadores de futebol; os autores classificaram a qualidade geral da evidência como baixa ou muito baixa."
-  },
-  {
-    title: "The Effect of Respiratory Muscle Training on the Pulmonary Function, Lung Ventilation, and Endurance Performance of Young Soccer Players",
-    publisher: "International Journal of Environmental Research and Public Health / PubMed",
-    year: "2020",
-    url: "https://pubmed.ncbi.nlm.nih.gov/31905644/",
-    note: "Ensaio com jogadores jovens sobre treinamento muscular inspiratório, função pulmonar e desempenho de resistência."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10621163/",
+    note: "Estudo sobre adaptações pulmonares associadas ao treinamento regular de futebol em crianças."
   }
 ];

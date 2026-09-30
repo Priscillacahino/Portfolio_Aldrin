@@ -43,8 +43,8 @@ export const DossierModal: React.FC<DossierModalProps> = ({ isOpen, onClose }) =
                   <div><strong>2024 — CBF7:</strong> Preparador Físico da Escola Flamengo João Pessoa Sub-11 e Auxiliar Técnico da Escola Flamengo Sub-13, conforme registros oficiais.</div>
                   <div><strong>2024 — PE Cup Brasil:</strong> técnico do Fla Altiplano-PB em registro nominal da competição.</div>
                   <div><strong>2026 — CREF10/PB:</strong> consulta cadastral fornecida para o portfólio em 30/09/2026 apresenta o registro PB-004686 como LICENCIADO e ATIVO.</div>
-                  <div><strong>Colégio Elohim:</strong> atuação como professor de Educação Física informada pela família; datas, modalidades e resultados específicos seguem em organização documental.</div>
-                  <div><strong>Instituto Garotinho:</strong> participação confirmada pela família em fotografias e publicações do Instagram fornecidas para esta versão; os links estão preservados na seção de fontes.</div>
+                  <div><strong>Colégio Elohim:</strong> atuação como professor de Educação Física e participação no esporte escolar. Página pública de torneio do colégio identifica “Profº Aldrin Eldrin” como coordenador do evento.</div>
+                  <div><strong>Instituto Garotinho:</strong> colaboração voluntária em apoio aos professores e às crianças em atividades esportivas e torneios, dentro de um projeto social sem fins lucrativos.</div>
                 </div>
               </section>
 
@@ -62,7 +62,7 @@ export const DossierModal: React.FC<DossierModalProps> = ({ isOpen, onClose }) =
                 </div>
               </section>
 
-              <div className="pt-4 border-t-2 border-slate-900 text-xs text-slate-600"><strong>Contato público:</strong> {PERSONAL_INFO.social.instagramUsername} • {PERSONAL_INFO.social.flamengoUsername}<br /><strong>Observação:</strong> este dossiê diferencia registros públicos, acervo visual confirmado pela família e informações que ainda aguardam detalhamento documental.</div>
+              <div className="pt-4 border-t-2 border-slate-900 text-xs text-slate-600"><strong>Contato público:</strong> {PERSONAL_INFO.social.instagramUsername} • {PERSONAL_INFO.social.flamengoUsername}<br /><strong>Fontes:</strong> registros jornalísticos, esportivos, profissionais, escolares e institucionais reunidos no portfólio.</div>
             </div>
           </motion.div>
         </div>

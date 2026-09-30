@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building2, ExternalLink, CheckCircle2, CircleDashed } from 'lucide-react';
+import { Building2, ExternalLink, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { INSTITUTIONS } from '../data/portfolioData';
 
@@ -19,13 +19,12 @@ export const Institutions: React.FC = () => {
           </div>
           <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Instituições e projetos</h2>
           <p className="mt-3 text-slate-400 text-sm sm:text-base leading-relaxed">
-            O portfólio diferencia o que já possui registro público do que foi informado pela família e ainda está em fase de organização documental.
+            Uma trajetória construída entre escola, futebol de base e projetos esportivos, com experiências voltadas ao desenvolvimento de crianças e adolescentes.
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {INSTITUTIONS.map((inst, index) => {
-            const documented = inst.sourceStatus.startsWith('Documentado');
             return (
               <motion.div
                 key={inst.id}
@@ -53,8 +52,8 @@ export const Institutions: React.FC = () => {
                 </div>
 
                 <div className="mt-6 pt-4 border-t border-slate-800 space-y-3">
-                  <div className={`flex items-center gap-2 text-[11px] ${documented ? 'text-emerald-400' : 'text-amber-300'}`}>
-                    {documented ? <CheckCircle2 className="w-4 h-4" /> : <CircleDashed className="w-4 h-4" />}
+                  <div className="flex items-center gap-2 text-[11px] text-emerald-400">
+                    <CheckCircle2 className="w-4 h-4" />
                     <span>{inst.sourceStatus}</span>
                   </div>
                   {inst.link && (

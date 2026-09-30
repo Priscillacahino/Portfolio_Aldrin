@@ -45,7 +45,7 @@ export interface Pillar {
 
 export interface PublicSource {
   id: string;
-  type: 'Jornalismo' | 'Registro esportivo' | 'Registro profissional' | 'Registro acadêmico' | 'Perfil profissional' | 'Registro visual' | 'Acervo histórico';
+  type: 'Jornalismo' | 'Registro esportivo' | 'Registro profissional' | 'Registro acadêmico' | 'Registro escolar' | 'Projeto social' | 'Perfil profissional' | 'Registro visual' | 'Acervo histórico';
   title: string;
   publisher: string;
   year: string;

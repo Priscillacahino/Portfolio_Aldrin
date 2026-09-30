@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { BookOpen, ExternalLink, Newspaper, ShieldCheck, Trophy, GraduationCap, UserRoundSearch, Archive, Camera } from 'lucide-react';
+import { BookOpen, ExternalLink, Newspaper, ShieldCheck, Trophy, GraduationCap, UserRoundSearch, Archive, Camera, School, HeartHandshake } from 'lucide-react';
 import { motion } from 'motion/react';
 import { PUBLIC_SOURCES } from '../data/portfolioData';
 import { PublicSource } from '../types/portfolio';
@@ -9,6 +9,8 @@ const iconFor = (type: PublicSource['type']) => {
   if (type === 'Registro esportivo') return Trophy;
   if (type === 'Registro profissional') return ShieldCheck;
   if (type === 'Registro acadêmico') return GraduationCap;
+  if (type === 'Registro escolar') return School;
+  if (type === 'Projeto social') return HeartHandshake;
   if (type === 'Perfil profissional') return UserRoundSearch;
   if (type === 'Registro visual') return Camera;
   return Archive;
@@ -31,9 +33,9 @@ export const SourcesSection: React.FC = () => {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-xs font-semibold text-red-400 uppercase tracking-widest">
             <BookOpen className="w-3.5 h-3.5" /> Fontes públicas e registros
           </div>
-          <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Pesquise e confira as informações</h2>
+          <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Fontes para consulta</h2>
           <p className="mt-3 text-slate-400 text-sm sm:text-base leading-relaxed">
-            Reunimos matérias, registros esportivos, referências acadêmicas, fontes profissionais e publicações visuais confirmadas pela família. Republicações da mesma matéria aparecem identificadas como fontes alternativas, sem serem tratadas como notícias independentes.
+            Matérias, registros oficiais, páginas institucionais e publicações que ajudam a acompanhar a trajetória profissional e esportiva de Aldrin. Fontes repetidas da mesma matéria foram removidas para deixar a consulta mais objetiva.
           </p>
         </motion.div>
 
@@ -83,8 +85,8 @@ export const SourcesSection: React.FC = () => {
           })}
         </div>
 
-        <div className="mt-8 rounded-xl border border-amber-900/40 bg-amber-950/20 p-4 text-xs text-amber-100/80 leading-relaxed">
-          Registros judiciais ou dados pessoais encontrados por mecanismos de busca não fazem parte deste portfólio, porque não contribuem para a trajetória esportiva e profissional. O objetivo desta seção é permitir a verificação das informações relevantes para formação, atuação e competições.
+        <div className="mt-8 rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-xs text-slate-400 leading-relaxed text-center">
+          A seleção prioriza fontes relacionadas à formação, atuação profissional, competições e projetos esportivos.
         </div>
       </div>
     </section>

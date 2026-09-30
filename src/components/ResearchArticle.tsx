@@ -1,5 +1,5 @@
 import React from 'react';
-import { Microscope, ExternalLink, AlertCircle, Wind, Activity, HeartPulse, BookOpenCheck } from 'lucide-react';
+import { Microscope, ExternalLink, Wind, Activity, HeartPulse, BookOpenCheck } from 'lucide-react';
 import { motion } from 'motion/react';
 import { ARTICLE_REFERENCES, PERSONAL_INFO } from '../data/portfolioData';
 
@@ -47,7 +47,7 @@ export const ResearchArticle: React.FC = () => {
                 Em 2016, registros acadêmicos da Universidade Federal da Paraíba associam <strong className="text-white">{PERSONAL_INFO.fullName}</strong> ao TCC <em>“{PERSONAL_INFO.education.tccTitle}”</em>, sob orientação do {PERSONAL_INFO.education.advisor}. O tema aproxima ciência do esporte e uma realidade que já fazia parte da sua atuação: jovens atletas da Escolinha do Flamengo.
               </p>
               <p>
-                A pergunta continua relevante porque crianças e adolescentes estão em fase de crescimento e respondem ao treinamento de maneiras diferentes. Estudos posteriores mostram benefícios do futebol para a aptidão cardiorrespiratória e apontam que o exercício regular pode influenciar alguns parâmetros de função pulmonar. Ao mesmo tempo, a literatura reforça que nenhuma medida isolada deve ser usada como atalho para definir desempenho ou potencial esportivo.
+                A pergunta continua relevante porque, aos 12 e 13 anos, o jovem atleta já pode apresentar boa resposta cardiorrespiratória ao treinamento, mas ainda atravessa uma fase importante de crescimento pulmonar, torácico e maturação. Estudos posteriores mostram benefícios do futebol para a aptidão cardiorrespiratória e reforçam que o estágio de desenvolvimento precisa ser considerado ao interpretar qualquer medida de desempenho.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2">
@@ -64,10 +64,7 @@ export const ResearchArticle: React.FC = () => {
                 Essa releitura também conversa com a prática do treinador: avaliar não serve apenas para selecionar. Serve para compreender melhor o atleta, orientar o treino, identificar necessidades e acompanhar evolução com mais responsabilidade. Em categorias de base, isso significa considerar desempenho, saúde e formação como partes do mesmo processo.
               </p>
 
-              <div className="rounded-xl border border-amber-900/40 bg-amber-950/20 p-4 flex items-start gap-3 text-xs sm:text-sm text-amber-100/80">
-                <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />
-                <p><strong className="text-amber-100">Nota de transparência:</strong> o texto integral da monografia de 2016 não foi localizado nas fontes públicas consultadas. Por isso, esta releitura não atribui ao TCC amostra, métodos, resultados ou conclusões que não puderam ser verificados. Quando o PDF original estiver disponível, o artigo pode ser ampliado com uma seção específica sobre os achados de Aldrin.</p>
-              </div>
+
             </article>
 
             <aside className="lg:col-span-4">

@@ -11,9 +11,9 @@ export const Gallery: React.FC = () => {
     <section id="galeria" className="py-20 sm:py-28 bg-[#0c1017] border-t border-slate-800/80 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="max-w-3xl mx-auto text-center mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-xs font-semibold text-red-400 uppercase tracking-widest"><Camera className="w-3.5 h-3.5" /> Acervo fotográfico validado</div>
-          <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Fotos reais, sem imagens ilustrativas</h2>
-          <p className="mt-3 text-slate-400 text-sm sm:text-base leading-relaxed">As imagens fictícias da versão inicial foram retiradas. Esta galeria reúne somente fotografias e registros confirmados pela família, preservando o contexto profissional sempre que ele pôde ser identificado.</p>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-xs font-semibold text-red-400 uppercase tracking-widest"><Camera className="w-3.5 h-3.5" /> Galeria</div>
+          <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Registros da trajetória</h2>
+          <p className="mt-3 text-slate-400 text-sm sm:text-base leading-relaxed">Momentos em campo, orientação aos atletas, equipes e participações em projetos esportivos.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -30,7 +30,7 @@ export const Gallery: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-8 rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-xs text-slate-400 text-center">O acervo pode ser ampliado posteriormente com novos registros de campeonatos, Escola Flamengo, Colégio Elohim e Instituto Garotinho, mantendo o mesmo critério de validação.</div>
+        <div className="mt-8 rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-xs text-slate-400 text-center">A galeria pode crescer com novos registros de treinos, campeonatos, escola e projetos esportivos.</div>
       </div>
 
       <AnimatePresence>
