@@ -35,7 +35,7 @@ export const SourcesSection: React.FC = () => {
           </div>
           <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Fontes para consulta</h2>
           <p className="mt-3 text-slate-400 text-sm sm:text-base leading-relaxed">
-            Matérias, registros oficiais, páginas institucionais e publicações que ajudam a acompanhar a trajetória profissional e esportiva de Aldrin. Fontes repetidas da mesma matéria foram removidas para deixar a consulta mais objetiva.
+            Matérias, registros esportivos, páginas institucionais e publicações que ajudam a acompanhar a trajetória profissional de Aldrin. Registros visuais selecionados foram direcionados para a Galeria para deixar esta consulta mais objetiva.
           </p>
         </motion.div>
 

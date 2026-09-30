@@ -152,9 +152,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDossier }) => {
                 {/* Photo Header */}
                 <div className="relative h-96 w-full overflow-hidden bg-slate-950">
                   <img
-                    src="/assets/aldrin-equipe-base.jpg"
-                    alt="Aldrin Eldrin Santos Cahino com equipe de futebol de base"
-                    className="w-full h-full object-cover object-[88%_center] filter brightness-90 contrast-110"
+                    src="/assets/aldrin-perfil-escola-flamengo.jpg"
+                    alt="Aldrin Eldrin Santos Cahino — Escola Flamengo"
+                    className="w-full h-full object-cover object-[50%_52%] filter brightness-95 contrast-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
 

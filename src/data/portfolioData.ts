@@ -237,6 +237,16 @@ export const COMPETITIONS_DATA: Competition[] = [
 
 export const INITIAL_GALLERY: GalleryItem[] = [
   {
+    id: "gal-orientacao-equipe",
+    title: "Orientação em equipe",
+    category: "treinos",
+    year: "Escola Flamengo",
+    description: "Momento de conversa e orientação coletiva com atletas do futebol de base, em contexto de treinamento e formação.",
+    imageUrl: "/assets/aldrin-orientacao-equipe.jpg",
+    badge: "Formação em campo",
+    verified: true
+  },
+  {
     id: "gal-campo-bola",
     title: "Acompanhamento em campo",
     category: "treinos",
@@ -271,9 +281,49 @@ export const INITIAL_GALLERY: GalleryItem[] = [
     title: "Instituto Garotinho — participação voluntária",
     category: "escola_social",
     year: "Projeto social",
-    description: "Publicação do Instituto Garotinho em contexto de participação esportiva e deslocamento para atividades do projeto, ligada à colaboração voluntária de Aldrin com professores e crianças.",
+    description: "Registro do Instituto Garotinho em contexto de atividade do projeto, relacionado à colaboração voluntária de Aldrin no apoio a professores e crianças.",
     imageUrl: "/assets/instituto-garotinho-instagram.jpg",
     badge: "Instituto Garotinho",
+    verified: true
+  },
+  {
+    id: "gal-instagram-DXB3dKvjKVK",
+    title: "Registro esportivo no Instagram",
+    category: "competicoes",
+    year: "Registro público",
+    description: "Publicação da trajetória esportiva de Aldrin. O contexto completo pode ser consultado diretamente no Instagram.",
+    externalUrl: "https://www.instagram.com/p/DXB3dKvjKVK/",
+    badge: "Abrir no Instagram",
+    verified: true
+  },
+  {
+    id: "gal-instagram-DR7uWkwj5OF",
+    title: "Atividade com equipe",
+    category: "treinos",
+    year: "Registro público",
+    description: "Publicação com Aldrin em contexto esportivo e de equipe. O conteúdo completo está disponível na publicação original.",
+    externalUrl: "https://www.instagram.com/p/DR7uWkwj5OF/",
+    badge: "Abrir no Instagram",
+    verified: true
+  },
+  {
+    id: "gal-instagram-DJsERxvxjZb",
+    title: "Trajetória esportiva",
+    category: "flamengo",
+    year: "Registro público",
+    description: "Registro público relacionado à atuação esportiva de Aldrin, preservado na galeria para consulta direta.",
+    externalUrl: "https://www.instagram.com/p/DJsERxvxjZb/",
+    badge: "Abrir no Instagram",
+    verified: true
+  },
+  {
+    id: "gal-instagram-DcvvxDJsS3g",
+    title: "Atividade esportiva",
+    category: "treinos",
+    year: "Registro público",
+    description: "Publicação indicada como registro visual da trajetória de Aldrin. Consulte o post para ver o contexto completo.",
+    externalUrl: "https://www.instagram.com/p/DcvvxDJsS3g/",
+    badge: "Abrir no Instagram",
     verified: true
   }
 ];
@@ -353,26 +403,6 @@ export const PUBLIC_SOURCES: PublicSource[] = [
     primary: true
   },
   {
-    id: "confef-2024",
-    type: "Registro profissional",
-    title: "Nominata do Sistema CONFEF/CREFs — Paraíba",
-    publisher: "CONFEF",
-    year: "2024",
-    url: "https://www.confef.org.br/confef/eleicoes/relatorio3.php?id=PB",
-    note: "Lista oficial com o registro CREF 004686-G/PB em nome de Aldrin Eldrin Santos Cahino.",
-    primary: true
-  },
-  {
-    id: "cref-consulta",
-    type: "Registro profissional",
-    title: "Consulta cadastral de profissionais",
-    publisher: "CREF10/PB",
-    year: "2026",
-    url: "https://www.cref10.org.br/site/registrado.php?pagina=1",
-    note: "Consulta oficial do conselho. Em 30/09/2026, o registro PB-004686 foi consultado como LICENCIADO e ATIVO.",
-    primary: true
-  },
-  {
     id: "elohim-torneio",
     type: "Registro escolar",
     title: "Torneio de futsal — profissionais envolvidos",
@@ -419,15 +449,6 @@ export const PUBLIC_SOURCES: PublicSource[] = [
     note: "Perfil do projeto social esportivo em que Aldrin realizou participações voluntárias de apoio a professores e atletas."
   },
   {
-    id: "instituto-garotinho-projeto",
-    type: "Projeto social",
-    title: "Instituto Garotinho — esporte como transformação social",
-    publisher: "Sympla / Instituto Garotinho",
-    year: "2026",
-    url: "https://www.sympla.com.br/evento/seletiva-copa-do-brasil/3514080",
-    note: "Apresentação pública do Instituto como organização sem fins lucrativos voltada à formação de crianças e adolescentes por meio do esporte, educação e valores humanos."
-  },
-  {
     id: "instagram-visual-DbMKQpYOfuc",
     type: "Registro visual",
     title: "Vídeo — atividade esportiva com Aldrin",
@@ -435,15 +456,6 @@ export const PUBLIC_SOURCES: PublicSource[] = [
     year: "Registro visual",
     url: "https://www.instagram.com/reel/DbMKQpYOfuc/",
     note: "Vídeo indicado como parte do acervo público da trajetória esportiva de Aldrin; o contexto completo pode ser consultado diretamente na publicação."
-  },
-  {
-    id: "instagram-visual-DdPtX2dhpsr",
-    type: "Registro visual",
-    title: "Publicação — atividade esportiva com Aldrin",
-    publisher: "Instagram",
-    year: "Registro visual",
-    url: "https://www.instagram.com/p/DdPtX2dhpsr/",
-    note: "Registro visual de atividade esportiva com participação de Aldrin."
   },
   {
     id: "instagram-visual-DBmtqr0J3bI",
@@ -454,42 +466,6 @@ export const PUBLIC_SOURCES: PublicSource[] = [
     url: "https://www.instagram.com/p/DBmtqr0J3bI/",
     note: "Registro visual relacionado à trajetória de Aldrin no futebol de base."
   },
-  {
-    id: "instagram-visual-DXB3dKvjKVK",
-    type: "Registro visual",
-    title: "Publicação — participação esportiva",
-    publisher: "Instagram",
-    year: "Registro visual",
-    url: "https://www.instagram.com/p/DXB3dKvjKVK/",
-    note: "Publicação indicada como registro de participação esportiva de Aldrin."
-  },
-  {
-    id: "instagram-visual-DR7uWkwj5OF",
-    type: "Registro visual",
-    title: "Publicação — atividade com equipe",
-    publisher: "Instagram",
-    year: "Registro visual",
-    url: "https://www.instagram.com/p/DR7uWkwj5OF/",
-    note: "Registro visual com Aldrin em contexto de atividade esportiva e equipe."
-  },
-  {
-    id: "instagram-visual-DJsERxvxjZb",
-    type: "Registro visual",
-    title: "Publicação — trajetória esportiva",
-    publisher: "Instagram",
-    year: "Registro visual",
-    url: "https://www.instagram.com/p/DJsERxvxjZb/",
-    note: "Publicação preservada como registro visual da trajetória esportiva de Aldrin."
-  },
-  {
-    id: "instagram-visual-DcvvxDJsS3g",
-    type: "Registro visual",
-    title: "Publicação — atividade esportiva",
-    publisher: "Instagram",
-    year: "Registro visual",
-    url: "https://www.instagram.com/p/DcvvxDJsS3g/",
-    note: "Registro visual de atividade esportiva com participação de Aldrin."
-  }
 ];
 
 export const ARTICLE_REFERENCES: ArticleReference[] = [

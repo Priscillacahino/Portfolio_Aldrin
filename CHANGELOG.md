@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.2.0 — 30/09/2026
+
+- Foto principal atualizada para o retrato institucional da Escola Flamengo enviado para o projeto.
+- Novo registro real de orientação coletiva com atletas incluído na galeria.
+- Links `DXB3dKvjKVK`, `DR7uWkwj5OF`, `DJsERxvxjZb` e `DcvvxDJsS3g` transferidos da seção de fontes para a galeria, com abertura direta no Instagram e descrições genéricas quando o contexto completo não está disponível fora da rede social.
+- Removidos da seção **Fontes para consulta** os links da Sympla, CONFEF, consulta CREF10/PB e a publicação `DdPtX2dhpsr`.
+- Registros visuais duplicados ou desnecessários foram eliminados da listagem pública de fontes.
+- Ajustes de compatibilidade no `vite.config.ts` e nos estilos de impressão para eliminar os avisos observados no build da versão anterior.
+- Versão atualizada para 1.2.0.
+
 ## 1.1.0 — 30/09/2026
 
 - Reescrita a apresentação da trajetória para retirar referências a informações “fornecidas pela família” quando já existem registros públicos ou quando esse detalhe não agrega ao portfólio.

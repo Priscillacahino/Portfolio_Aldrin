@@ -11,7 +11,9 @@ Portfólio em React/Vite dedicado à trajetória de Aldrin na Educação Física
 - A participação no Instituto Garotinho é descrita como **voluntária**, em apoio aos professores e às crianças em atividades e torneios.
 - A matéria original do ge sobre a Copa Fla Nordeste 2015 foi mantida; republicações da mesma matéria foram removidas.
 - O artigo inspirado no TCC foi simplificado e contextualizado com pesquisas sobre desenvolvimento pulmonar na adolescência e condicionamento cardiorrespiratório no futebol de base.
-- A foto com bola permanece na galeria; a capa passou a usar um registro de equipe com enquadramento mais forte.
+- A foto principal foi atualizada para um retrato institucional da Escola Flamengo; a foto com bola permanece somente na galeria.
+- A galeria recebeu novo registro de orientação em equipe e links diretos para publicações selecionadas do Instagram.
+- A seção **Fontes para consulta** foi enxugada, retirando links que não precisam permanecer como referência pública principal.
 - Telefone, WhatsApp e e-mail não são exibidos sem autorização específica para divulgação.
 
 ## Fontes principais reunidas
@@ -19,12 +21,10 @@ Portfólio em React/Vite dedicado à trajetória de Aldrin na Educação Física
 - ge / Globo Esporte — Copa Fla Nordeste 2015
 - CBF7 — registros Sub-11 e Sub-13 em 2024
 - PE Cup Brasil — Fla Altiplano-PB
-- Sistema CONFEF/CREFs e consulta CREF10/PB
 - Elohim Colégio e Curso — registro público de torneio esportivo
 - Perfil de esportes do Elohim no Instagram
 - Escola Flamengo PB e Instituto Garotinho no Instagram
-- Referência pública do Instituto Garotinho como projeto social esportivo
-- Publicações visuais do Instagram fornecidas para o projeto
+- Registros visuais selecionados do Instagram, parte deles exibidos diretamente na galeria
 - Referências científicas usadas na releitura do tema do TCC
 
 A lista completa, com links, está em `docs/FONTES_PUBLICAS.md` e também na seção **Fontes** do site.

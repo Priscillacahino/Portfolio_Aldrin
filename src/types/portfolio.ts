@@ -30,7 +30,8 @@ export interface GalleryItem {
   category: 'flamengo' | 'competicoes' | 'treinos' | 'escola_social';
   year: string;
   description: string;
-  imageUrl: string;
+  imageUrl?: string;
+  externalUrl?: string;
   badge?: string;
   verified: boolean;
 }
