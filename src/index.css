@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #090c10;
+    color: #f1f5f9;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-condensed {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090c10;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}
+
+/* Print styles for dossier export */
+@media print {
+  header, nav, #admin-banner, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: #111827 !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .bg-slate-900, .bg-slate-950, .bg-[#0b0e14], .bg-[#090c10], .bg-zinc-900 {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+    border-color: #e5e7eb !important;
+  }
+  .text-white, .text-slate-100, .text-slate-200 {
+    color: #111827 !important;
+  }
+  .text-slate-400, .text-slate-300 {
+    color: #4b5563 !important;
+  }
+}
