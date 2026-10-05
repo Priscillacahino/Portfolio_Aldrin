@@ -6,6 +6,7 @@ import { Philosophy } from './components/Philosophy';
 import { Credentials } from './components/Credentials';
 import { Timeline } from './components/Timeline';
 import { Institutions } from './components/Institutions';
+import { SportsManagement } from './components/SportsManagement';
 import { MediaHighlight } from './components/MediaHighlight';
 import { Competitions } from './components/Competitions';
 import { Gallery } from './components/Gallery';
@@ -42,6 +43,9 @@ export default function App() {
 
         {/* Instituições de Atuação (Flamengo PB, Colégio Elohim, Instituto Garotinho) */}
         <Institutions />
+
+        {/* Gestão esportiva e uso de tecnologia na rotina */}
+        <SportsManagement />
 
         {/* Destaque na Mídia (Globo Esporte / ge 2015: Inclusão e Treinamento) */}
         <MediaHighlight />
