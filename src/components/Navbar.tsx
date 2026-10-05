@@ -23,6 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenDossier }) => {
     { name: 'Formação & CREF', href: '#formacao' },
     { name: 'Trajetória', href: '#trajetoria' },
     { name: 'Atuação', href: '#atuacao' },
+    { name: 'Gestão & Inovação', href: '#gestao' },
     { name: 'Competições', href: '#competicoes' },
     { name: 'Na Mídia', href: '#midia' },
     { name: 'Artigo', href: '#artigo' },
